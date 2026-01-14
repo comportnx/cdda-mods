@@ -1,0 +1,458 @@
+[
+  {
+    "type": "option_slider",
+    "id": "world_cities",
+    "context": "WORLDGEN",
+    "name": "Cities",
+    "default": 1,
+    "levels": [
+      {
+        "level": 0,
+        "name": "Remote",
+        "description": "Cities are basically non-existent. Many locations will be missing from the world, leading to crashes when accepting some quests. Scenarios which start in missing locations will crash on launch.",
+        "options": [ { "option": "CITY_SIZE", "type": "int", "val": 1 }, { "option": "CITY_SPACING", "type": "int", "val": 8 } ]
+      },
+      {
+        "level": 1,
+        "name": "Suburbia",
+        "description": "Cities use default size and distances, with small to large cities separated by large rural areas.",
+        "options": [ { "option": "CITY_SIZE", "type": "int", "val": 8 }, { "option": "CITY_SPACING", "type": "int", "val": 4 } ]
+      },
+      {
+        "level": 2,
+        "name": "Cityscape",
+        "description": "Cities are 50% larger and 25% closer to each other.",
+        "options": [ { "option": "CITY_SIZE", "type": "int", "val": 12 }, { "option": "CITY_SPACING", "type": "int", "val": 3 } ]
+      },
+      {
+        "level": 3,
+        "name": "Megacity",
+        "description": "Cities are nearly continuous, with minimal distance between them.",
+        "options": [ { "option": "CITY_SIZE", "type": "int", "val": 16 }, { "option": "CITY_SPACING", "type": "int", "val": 1 } ]
+      },
+      {
+        "level": 4,
+        "name": "Continuous",
+        "description": "The world is an endless almost unbroken city. World generation will take a long time, scrolling too far on the map may cause application freezes, and many locations will be missing from the world, leading to crashes when accepting some quests. Scenarios which start in missing locations will crash on launch.",
+        "options": [ { "option": "CITY_SIZE", "type": "int", "val": 28 }, { "option": "CITY_SPACING", "type": "int", "val": 0 } ]
+      }      
+    ]
+  },
+  {
+    "type": "option_slider",
+    "id": "world_difficulty",
+    "context": "WORLDGEN",
+    "name": "Evolution Speed",
+    "default": 2,
+    "levels": [
+      {
+        "level": 0,
+        "name": "240 Days",
+        "description": "Most zombies won't have evolved until after 240 days.",
+        "options": [
+          { "option": "EVOLUTION_INVERSE_MULTIPLIER", "type": "float", "val": 2 }
+        ]
+      },
+      {
+        "level": 1,
+        "name": "180 Days",
+        "description": "Most zombies won't have evolved until after 180 days.",
+        "options": [
+          { "option": "EVOLUTION_INVERSE_MULTIPLIER", "type": "float", "val": 1.5 }
+        ]
+      },
+      {
+        "level": 2,
+        "name": "Default",
+        "description": "Most zombies will have evolved at least once after 120 days.",
+        "options": [
+          { "option": "EVOLUTION_INVERSE_MULTIPLIER", "type": "float", "val": 1 }
+        ]
+      },
+      {
+        "level": 3,
+        "name": "110 Days",
+        "description": "Most zombies will have evolved at least once after 110 days.",
+        "options": [
+          { "option": "EVOLUTION_INVERSE_MULTIPLIER", "type": "float", "val": 0.91 }
+        ]
+      },      
+      {
+        "level": 4,
+        "name": "105 Days",
+        "description": "Most zombies will have evolved at least once after 105 days.",
+        "options": [
+          { "option": "EVOLUTION_INVERSE_MULTIPLIER", "type": "float", "val": 0.88 }
+        ]
+      },
+      {
+        "level": 5,
+        "name": "90 Days",
+        "description": "Most zombies will have evolved at least once after 90 days.",
+        "options": [
+          { "option": "EVOLUTION_INVERSE_MULTIPLIER", "type": "float", "val": 0.75 }
+        ]
+      },
+      {
+        "level": 6,
+        "name": "30 Days",
+        "description": "Most zombies will have evolved at least once after 30 days.",
+        "options": [
+          { "option": "EVOLUTION_INVERSE_MULTIPLIER", "type": "float", "val": 0.25 }
+        ]
+      }      
+    ]
+  },  
+  {
+    "type": "option_slider",
+    "id": "world_random_npcs",
+    "context": "WORLDGEN",
+    "name": "Monster Health",
+    "default": 2,
+    "levels": [
+      {
+        "level": 0,
+        "name": "75%",
+        "description": "Monster health is reduced to 75%.",
+        "options": [
+          { "option": "MONSTER_RESILIENCE", "type": "int", "val": 75 }
+        ]
+      },
+      {
+        "level": 1,
+        "name": "85%",
+        "description": "Monster health is reduced to 85%.",
+        "options": [
+          { "option": "MONSTER_RESILIENCE", "type": "int", "val": 85 }
+        ]
+      },
+      {
+        "level": 2,
+        "name": "100%",
+        "description": "Monster health is at its normal level.",
+        "options": [
+          { "option": "MONSTER_RESILIENCE", "type": "int", "val": 100 }
+        ]
+      },
+      {
+        "level": 3,
+        "name": "120%",
+        "description": "Monsters health is increased to 120%.",
+        "options": [
+          { "option": "MONSTER_RESILIENCE", "type": "int", "val": 120 }
+        ]
+      },
+      {
+        "level": 4,
+        "name": "150%",
+        "description": "Monsters health is increased to 150%.",
+        "options": [
+          { "option": "MONSTER_RESILIENCE", "type": "int", "val": 150 }
+        ]
+      },
+      {
+        "level": 5,
+        "name": "200%",
+        "description": "Monster health is increased to 200%.",
+        "options": [
+          { "option": "MONSTER_RESILIENCE", "type": "int", "val": 200 }
+        ]
+      }
+    ]
+  },    
+  {
+    "type": "option_slider",
+    "id": "world_monspeed",
+    "context": "WORLDGEN",
+    "name": "Monster Speed",
+    "default": 1,
+    "levels": [
+      {
+        "level": 0,
+        "name": "90%",
+        "description": "Monster speed is reduced to 90%.",
+        "options": [
+          { "option": "MONSTER_SPEED", "type": "int", "val": 90 }
+        ]
+      },
+      {
+        "level": 1,
+        "name": "100%",
+        "description": "Monster speed is at its normal level.",
+        "options": [
+          { "option": "MONSTER_SPEED", "type": "int", "val": 100 }
+        ]
+      },
+      {
+        "level": 2,
+        "name": "110%",
+        "description": "Monster speed is increased to 110%.",
+        "options": [
+          { "option": "MONSTER_SPEED", "type": "int", "val": 110 }
+        ]
+      }
+    ]
+  },      
+  {
+    "type": "option_slider",
+    "id": "world_spawndensity",
+    "context": "WORLDGEN",
+    "name": "Monster Population",
+    "default": 2,
+    "levels": [
+      {
+        "level": 0,
+        "name": "80%",
+        "description": "The monster population is reduced to 80%.",
+        "options": [
+          { "option": "SPAWN_DENSITY", "type": "float", "val": 0.8 }
+        ]
+      },
+      {
+        "level": 1,
+        "name": "90%",
+        "description": "The monster population is reduced to 90%.",
+        "options": [
+          { "option": "SPAWN_DENSITY", "type": "float", "val": 0.9 }
+        ]
+      },
+      {
+        "level": 2,
+        "name": "100%",
+        "description": "The monster population is at its normal level.",
+        "options": [
+          { "option": "SPAWN_DENSITY", "type": "float", "val": 1 }
+        ]
+      },
+      {
+        "level": 3,
+        "name": "150%",
+        "description": "The monster population is increased to 150%.",
+        "options": [
+          { "option": "SPAWN_DENSITY", "type": "float", "val": 1.5 }
+        ]
+      },
+      {
+        "level": 4,
+        "name": "200%",
+        "description": "The monster population is increased to 200%.",
+        "options": [
+          { "option": "SPAWN_DENSITY", "type": "float", "val": 2 }
+        ]
+      },
+      {
+        "level": 5,
+        "name": "300%",
+        "description": "The monster population is increased to 300%.",
+        "options": [
+          { "option": "SPAWN_DENSITY", "type": "float", "val": 3 }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "option_slider",
+    "id": "world_abundance",
+    "context": "WORLDGEN",
+    "name": "Item Abundance",
+    "default": 3,
+    "levels": [
+      {
+        "level": 0,
+        "name": "10%",
+        "description": "Items are only 10% as common.",
+        "options": [
+          { "option": "ITEM_SPAWNRATE", "type": "float", "val": 0.1 }
+        ]
+      },
+      {
+        "level": 1,
+        "name": "50%",
+        "description": "items are only 50% as common.",
+        "options": [
+          { "option": "ITEM_SPAWNRATE", "type": "float", "val": 0.5 }
+        ]
+      },
+      {
+        "level": 2,
+        "name": "80%",
+        "description": "Items are only 80% as common.",
+        "options": [
+          { "option": "ITEM_SPAWNRATE", "type": "float", "val": 0.8 }
+        ]
+      },
+      {
+        "level": 3,
+        "name": "100%",
+        "description": "Item spawn rates are not altered.",
+        "options": [
+          { "option": "ITEM_SPAWNRATE", "type": "float", "val": 1 }
+        ]
+      }
+    ]
+  }, 
+  {
+    "type": "option_slider",
+    "id": "world_construction",
+    "context": "WORLDGEN",
+    "name": "Construction Time",
+    "default": 3,
+    "levels": [
+      {
+        "level": 0,
+        "name": "25%",
+        "description": "Construction times are reduced to 1%.",
+        "options": [
+          { "option": "CONSTRUCTION_SCALING", "type": "int", "val": 1 }
+        ]
+      },      
+      {
+        "level": 1,
+        "name": "25%",
+        "description": "Construction times are reduced to 25%.",
+        "options": [
+          { "option": "CONSTRUCTION_SCALING", "type": "int", "val": 25 }
+        ]
+      },
+      {
+        "level": 2,
+        "name": "50%",
+        "description": "Construction times are reduced to 50%.",
+        "options": [
+          { "option": "CONSTRUCTION_SCALING", "type": "int", "val": 50 }
+        ]
+      },
+      {
+        "level": 3,
+        "name": "100%",
+        "description": "Construction times are not altered.",
+        "options": [
+          { "option": "CONSTRUCTION_SCALING", "type": "int", "val": 100 }
+        ]
+      }
+    ]
+  },   
+  {
+    "type": "option_slider",
+    "id": "world_proficiency",
+    "context": "WORLDGEN",
+    "name": "Proficiency Rate",
+    "default": 0,
+    "levels": [
+      {
+        "level": 0,
+        "name": "1x",
+        "description": "Proficiency learning rate is normal.",
+        "options": [
+          { "option": "PROFICIENCY_TRAINING_SPEED", "type": "float", "val": 1.0 }
+        ]
+      },
+      {
+        "level": 1,
+        "name": "2x",
+        "description": "Proficiencies are acquired 2 times as fast.",
+        "options": [
+          { "option": "PROFICIENCY_TRAINING_SPEED", "type": "float", "val": 2.0 }
+        ]
+      },
+      {
+        "level": 2,
+        "name": "3x",
+        "description": "Proficiencies are acquired 3 times as fast.",
+        "options": [
+          { "option": "PROFICIENCY_TRAINING_SPEED", "type": "float", "val": 3.0 }
+        ]
+      },
+      {
+        "level": 3,
+        "name": "4x",
+        "description": "Proficiencies are acquired 4 times as fast.",
+        "options": [
+          { "option": "PROFICIENCY_TRAINING_SPEED", "type": "float", "val": 4.0 }
+        ]
+      },
+      {
+        "level": 4,
+        "name": "5x",
+        "description": "Proficiencies are acquired 5 times as fast.",
+        "options": [
+          { "option": "PROFICIENCY_TRAINING_SPEED", "type": "float", "val": 5.0 }
+        ]
+      },
+      {
+        "level": 5,
+        "name": "10x",
+        "description": "Proficiencies are acquired 10 times as fast.",
+        "options": [
+          { "option": "PROFICIENCY_TRAINING_SPEED", "type": "float", "val": 10.0 }
+        ]
+      }
+    ]
+  },    
+  {
+    "type": "option_slider",
+    "id": "world_daycycle",
+    "context": "WORLDGEN",
+    "name": "Day Cycle",
+    "default": 0,
+    "levels": [
+      {
+        "level": 0,
+        "name": "Normal",
+        "description": "The normal day/night cycle.",
+        "options": [
+          { "option": "ETERNAL_TIME_OF_DAY", "type": "string", "val": "normal" }
+        ]
+      },
+      {
+        "level": 1,
+        "name": "Eternal Day",
+        "description": "The Earth has become tidally locked. Daytime lasts forever.",
+        "options": [
+          { "option": "ETERNAL_TIME_OF_DAY", "type": "string", "val": "day" }
+        ]
+      },
+      {
+        "level": 2,
+        "name": "Eternal Night",
+        "description": "The sun is only a memory. Now the night lasts forever.",
+        "options": [
+          { "option": "ETERNAL_TIME_OF_DAY", "type": "string", "val": "night" }
+        ]
+      }
+    ]
+  },   
+  {
+    "type": "option_slider",
+    "id": "world_extend_npcs",
+    "context": "WORLDGEN",
+    "name": "Random NPCs",
+    "default": 1,
+    "levels": [
+      {
+        "level": 0,
+        "name": "Where is everyone?",
+        "description": "You are very unlikely to encounter random NPCs.",
+        "options": [ { "option": "NPC_SPAWNTIME", "type": "float", "val": 10 } ]
+      },
+      {
+        "level": 1,
+        "name": "Lonely",
+        "description": "The default: NPCs are rare, but as expected in this ruined world.",
+        "options": [ { "option": "NPC_SPAWNTIME", "type": "float", "val": 4 } ]
+      },
+      {
+        "level": 2,
+        "name": "Party time",
+        "description": "You are twice as likely to encounter random NPCs.",
+        "options": [ { "option": "NPC_SPAWNTIME", "type": "float", "val": 2 } ]
+      },
+      {
+        "level": 3,
+        "name": "Crowded",
+        "description": "Random NPCs are fairly common.  Go meet some friends!",
+        "options": [ { "option": "NPC_SPAWNTIME", "type": "float", "val": 1 } ]
+      }
+    ]
+  }  
+]
