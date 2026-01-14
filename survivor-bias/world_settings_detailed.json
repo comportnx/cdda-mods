@@ -255,40 +255,24 @@
     "id": "world_abundance",
     "context": "WORLDGEN",
     "name": "Item Abundance",
-    "default": 3,
+    "default": 0,
     "levels": [
       {
         "level": 0,
-        "name": "10%",
-        "description": "Items are only 10% as common.",
-        "options": [
-          { "option": "ITEM_SPAWNRATE", "type": "float", "val": 0.1 }
-        ]
-      },
-      {
-        "level": 1,
-        "name": "50%",
-        "description": "items are only 50% as common.",
-        "options": [
-          { "option": "ITEM_SPAWNRATE", "type": "float", "val": 0.5 }
-        ]
-      },
-      {
-        "level": 2,
-        "name": "80%",
-        "description": "Items are only 80% as common.",
-        "options": [
-          { "option": "ITEM_SPAWNRATE", "type": "float", "val": 0.8 }
-        ]
-      },
-      {
-        "level": 3,
         "name": "100%",
         "description": "Item spawn rates are not altered.",
         "options": [
           { "option": "ITEM_SPAWNRATE", "type": "float", "val": 1 }
         ]
-      }
+      },
+      {
+        "level": 1,
+        "name": "150%",
+        "description": "Items are 50% more common.",
+        "options": [
+          { "option": "ITEM_SPAWNRATE", "type": "float", "val": 1.5 }
+        ]
+      }      
     ]
   }, 
   {
