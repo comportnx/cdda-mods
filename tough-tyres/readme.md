@@ -1,6 +1,6 @@
 # Tough Tyres
 
-A rebalance mod that makes armoured, wide, off-road, train, and roller drum wheels much more resistant to rolling damage.
+A rebalance mod that makes armoured, wide, off-road, train and roller drum wheels much more resistant to rolling damage.
 
 [Download](https://github.com/comportnx/cdda-mods/raw/refs/heads/main/zip/Tough%20Tyres.zip)
 
