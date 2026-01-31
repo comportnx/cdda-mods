@@ -1,7 +1,7 @@
 [
   {
     "type": "MOD_INFO",
-    "id": "tough_tyres",
+    "id": "tough-tyres",
     "name": "COMPACK: Reduced Tyre Damage",
     "authors": [ "comportnx" ],
     "description": "Steel, armoured and off-road wheels are much more durable.",
