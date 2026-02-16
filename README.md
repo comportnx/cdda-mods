@@ -6,7 +6,7 @@ Mods included in this pack:
 
 In reality, a lot of heavy duty off-road vehicles like tractors use foam-filled or non-pneumatic tyres to eliminate the risk of punctures.
 
-This mod makes wide off-road tyres (found on tractors, 4x4 trucks, and excavators) heavier, but immune to punctures.
+This mod makes wide off-road tyres heavier, but immune to punctures. Found on tractors, 4x4 trucks, and excavators.
 
 ### Quiet Riots
 
