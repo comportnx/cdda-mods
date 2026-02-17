@@ -6,8 +6,12 @@ Mods included in this pack:
 
 In reality, a lot of heavy duty off-road vehicles like tractors use foam-filled or semi-pneumatic tyres to eliminate the risk of punctures.
 
-This mod makes wide off-road tyres heavier, but immune to punctures. Found on tractors, 4x4 trucks, and excavators.
+This mod makes wide off-road tyres heavier, but immune to punctures. Found on tractors, trenchers, and excavators.
 
 ### Quiet Riots
 
 Disables riot damage for buildings (but not roads).
+
+### Pulping Hammers
+
+Gives sledgehammers, short sledgehammers, and engineer hammers an (a)ctivatable ability that pulps surrounding corpses.
