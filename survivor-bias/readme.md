@@ -11,5 +11,3 @@ Separates the combined difficulty options back out into their own sliders.
 2. Save it in GAME_FOLDER\data\core\world_settings_detailed.json
 
 3. Start the game. After (I)gnoring a warning about changed files, the new options should be visible on the Create World settings screen
-
-Some content used & modified from https://github.com/CleverRaven/Cataclysm-DDA
