@@ -4,7 +4,8 @@ All mods are on Default tab under NO CATEGORY and track the CDDA Experimental bu
 
 ### Simplified Travel
 
-`Characters start with a national map book: a reusable road map & fast-travel tool.` `Phonebooks can be used to look up the locations of businesses.`
+`Characters start with a national map book: a reusable road map & fast-travel tool.` 
+`Phonebooks can be used to look up the locations of businesses.`
 
 Adds a "national map book" item with two functions. First, it works as a reusable road map, revealing nearby roads without being consumed. Second, it lets the player pick a destination on their map within the "explored zone" and travel there automatically, without needing to manually route around hazards. I wanted this as a way to travel between faction camps without a lot of micro-management, but it may have other uses as well. 
 
@@ -12,7 +13,7 @@ Traveling in this way takes a little longer for the character than walking manua
 
 (The explored zone is a rectangle with its edges placed at the furthest points you've traveled in each cardinal direction)
 
-Reading a phonebook also lets you look up the location of various nearby businesses. The target is revealed and a quest marker generated.
+Reading a phonebook also lets you look up the location of various nearby businesses. The target is revealed and a quest marker generated. Phonebooks have a chance to spawn in evac shelters, or can be found in hotel rooms pretty often.
 
 ### Simplified Transport
 
