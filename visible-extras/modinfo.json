@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "visible-extras",
+    "name": "compack: Visible Extras",
+    "authors": [ "comportnx" ],
+    "description": "Makes many overmap extras visible from a distance.",
+    "category": "misc",
+    "dependencies": [ "dda" ]
+  }
+]

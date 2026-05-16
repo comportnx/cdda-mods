@@ -1,0 +1,254 @@
+[
+  {
+    "id": "mx_crater",
+    "type": "map_extra",
+    "copy-from": "mx_crater",
+    "autonote_visibility": "details"
+  },
+  {
+    "id": "mx_collegekids",
+    "type": "map_extra",
+    "copy-from": "mx_collegekids",
+    "autonote_visibility": "details"
+  },
+  {
+    "id": "mx_finalshowdown",
+    "type": "map_extra",
+    "copy-from": "mx_finalshowdown",
+    "autonote_visibility": "details"
+  },
+  {
+    "id": "mx_dermatikvictim",
+    "type": "map_extra",
+    "copy-from": "mx_dermatikvictim",
+    "autonote_visibility": "details"
+  },
+  {
+    "id": "mx_drugdeal",
+    "type": "map_extra",
+    "copy-from": "mx_drugdeal",
+    "autonote_visibility": "details"
+  },
+  {
+    "id": "mx_roadworks",
+    "type": "map_extra",
+    "copy-from": "mx_roadworks",
+    "autonote_visibility": "details"
+  },
+  {
+    "id": "mx_mayhem",
+    "type": "map_extra",
+    "copy-from": "mx_mayhem",
+    "autonote_visibility": "details"
+  },
+  {
+    "id": "mx_mayhem_crash_start",
+    "type": "map_extra",
+    "copy-from": "mx_mayhem_crash_start",
+    "autonote_visibility": "details"
+  },
+  {
+    "id": "mx_military",
+    "type": "map_extra",
+    "copy-from": "mx_military",
+    "autonote_visibility": "details"
+  },
+  {
+    "id": "mx_helicopter",
+    "type": "map_extra",
+    "copy-from": "mx_helicopter",
+    "autonote_visibility": "details"
+  },
+  {
+    "id": "mx_science",
+    "type": "map_extra",
+    "copy-from": "mx_science",
+    "autonote_visibility": "details"
+  },
+  {
+    "id": "mx_golden_monoliths",
+    "type": "map_extra",
+    "copy-from": "mx_golden_monoliths",
+    "autonote_visibility": "details"
+  },
+  {
+    "id": "mx_lab_concourse_area",
+    "type": "map_extra",
+    "copy-from": "mx_lab_concourse_area",
+    "autonote_visibility": "details"
+  },
+  {
+    "id": "mx_house_spider",
+    "type": "map_extra",
+    "copy-from": "mx_house_spider",
+    "autonote_visibility": "details"
+  },
+  {
+    "id": "mx_house_wasp",
+    "type": "map_extra",
+    "copy-from": "mx_house_wasp",
+    "autonote_visibility": "details"
+  },
+  {
+    "id": "mx_bugout",
+    "type": "map_extra",
+    "copy-from": "mx_bugout",
+    "autonote_visibility": "details"
+  },
+  {
+    "id": "mx_spider",
+    "type": "map_extra",
+    "copy-from": "mx_spider",
+    "autonote_visibility": "details"
+  },
+  {
+    "id": "mx_jabberwock",
+    "type": "map_extra",
+    "copy-from": "mx_jabberwock",
+    "autonote_visibility": "details"
+  },
+  {
+    "id": "mx_grove",
+    "type": "map_extra",
+    "copy-from": "mx_grove",
+    "autonote_visibility": "details"
+  },
+  {
+    "id": "mx_shrubbery",
+    "type": "map_extra",
+    "copy-from": "mx_shrubbery",
+    "autonote_visibility": "details"
+  },
+  {
+    "id": "mx_blackberry_patch",
+    "type": "map_extra",
+    "copy-from": "mx_blackberry_patch",
+    "autonote_visibility": "details"
+  },
+  {
+    "id": "mx_strawberry_patch",
+    "type": "map_extra",
+    "copy-from": "mx_strawberry_patch",
+    "autonote_visibility": "details"
+  },
+  {
+    "id": "mx_blueberry_patch",
+    "type": "map_extra",
+    "copy-from": "mx_blueberry_patch",
+    "autonote_visibility": "details"
+  },
+  {
+    "id": "mx_raspberry_patch",
+    "type": "map_extra",
+    "copy-from": "mx_raspberry_patch",
+    "autonote_visibility": "details"
+  },
+  {
+    "id": "mx_huckleberry_patch",
+    "type": "map_extra",
+    "copy-from": "mx_huckleberry_patch",
+    "autonote_visibility": "details"
+  },
+  {
+    "id": "mx_hobblebush_patch",
+    "type": "map_extra",
+    "copy-from": "mx_hobblebush_patch",
+    "autonote_visibility": "details"
+  },
+  {
+    "id": "mx_autumn_olive_patch",
+    "type": "map_extra",
+    "copy-from": "mx_autumn_olive_patch",
+    "autonote_visibility": "details"
+  },
+  {
+    "id": "mx_fallen_shed",
+    "type": "map_extra",
+    "copy-from": "mx_fallen_shed",
+    "autonote_visibility": "details"
+  },
+  {
+    "id": "mx_clay_deposit",
+    "type": "map_extra",
+    "copy-from": "mx_clay_deposit",
+    "autonote_visibility": "details"
+  },
+  {
+    "id": "mx_sand_patch",
+    "type": "map_extra",
+    "copy-from": "mx_sand_patch",
+    "autonote_visibility": "details"
+  },
+  {
+    "id": "mx_dead_vegetation",
+    "type": "map_extra",
+    "copy-from": "mx_dead_vegetation",
+    "autonote_visibility": "details"
+  },
+  {
+    "id": "mx_point_dead_vegetation",
+    "type": "map_extra",
+    "copy-from": "mx_point_dead_vegetation",
+    "autonote_visibility": "details"
+  },
+  {
+    "id": "mx_burned_ground",
+    "type": "map_extra",
+    "copy-from": "mx_burned_ground",
+    "autonote_visibility": "details"
+  },
+  {
+    "id": "mx_point_burned_ground",
+    "type": "map_extra",
+    "copy-from": "mx_point_burned_ground",
+    "autonote_visibility": "details"
+  },
+  {
+    "id": "mx_kelp_patch",
+    "type": "map_extra",
+    "copy-from": "mx_kelp_patch",
+    "autonote_visibility": "details"
+  },
+  {
+    "id": "mx_marloss_pilgrimage",
+    "type": "map_extra",
+    "copy-from": "mx_marloss_pilgrimage",
+    "autonote_visibility": "details"
+  },
+  {
+    "id": "mx_casings",
+    "type": "map_extra",
+    "copy-from": "mx_casings",
+    "autonote_visibility": "details"
+  },
+  {
+    "id": "mx_mass_grave_jabberwock",
+    "type": "map_extra",
+    "copy-from": "mx_mass_grave_jabberwock",
+    "autonote_visibility": "details"
+  },
+  {
+    "id": "mx_laststand",
+    "type": "map_extra",
+    "copy-from": "mx_laststand",
+    "autonote_visibility": "details"
+  },
+  {
+    "id": "mx_fungal_zone",
+    "type": "map_extra",
+    "copy-from": "mx_fungal_zone",
+    "autonote_visibility": "details"
+  },
+  {
+    "id": "mx_toxic_waste",
+    "type": "map_extra",
+    "copy-from": "mx_toxic_waste",
+    "autonote_visibility": "details"
+  },
+  {
+    "id": "mx_worm_sign",
+    "type": "map_extra",
+    "copy-from": "mx_worm_sign",
+    "autonote_visibility": "details"
+  }
+]
